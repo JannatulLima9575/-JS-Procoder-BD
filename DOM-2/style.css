@@ -16,10 +16,22 @@ body {
     padding: 25px;
     margin-bottom: -20px;
 }
-.section-one, .section-two {
+.section-one, .section-two, .section-three  {
     padding: 40px;
 }
 .hero {
-    background: aquamarine;
+    background: #2c3e50;
+    color: white;
     padding: 40px 20px;
+}
+button {
+    background-color: #535c68;
+    color: #fff;
+    margin-top: 20px;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+.section-three ul {
+    margin-left: 24px;
+    padding-top: 20px;
 }
