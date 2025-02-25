@@ -2,3 +2,24 @@
     padding: 0;
     margin: 0;box-sizing: border-box;
 }
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-box {
+    display: flex;
+    gap: 15px;
+}
+.box {
+    background: #b9d6f2;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: -20px;
+}
+.section-one, .section-two {
+    padding: 40px;
+}
+.hero {
+    background: aquamarine;
+    padding: 40px 20px;
+}
