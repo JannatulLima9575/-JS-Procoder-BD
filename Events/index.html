@@ -5,11 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <div>
-        <h1>Javascript is Fun 😎</h1>
-        <button>Subscribe</button>
-    </div>
+<body onload="onload()" onresize="windowResize()" onscroll="onScroll()">
+    <p id="top"></p>
+    <h1 id="title">Javascript is Fun 😎</h1>
+    <button onclick="subscribe()" id="btn"><i class="fa-regular fa-bell"></i>  Subscribe</button>
+
+    <h2 id="text"></h2>
+    <button id="like" onclick="like()"><i class="fa-regular fa-thumbs-up"></i>  Like</button>
+    
+<h1 id="ext"></h1>
+<!-- onclick, ondblclick, onkeypress, onkeyup -->
+    <form action="" id="form" onkeypress = "keyPress()"> 
+        <label for="">Name</label>
+        <input type="text" placeholder="Enter Your Name" name="" id="">
+        <label for="">Email</label>
+        <input type="email" placeholder="Enter Your Email" name="" id="">
+        <label for="">Message</label>
+        <textarea placeholder="Enter Your Message" id="textarea"></textarea>
+        <input type="submit" value="Send Message" id="">
+    </form>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
