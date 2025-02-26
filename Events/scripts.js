@@ -28,3 +28,16 @@ function windowResize() {
 function onScroll() {
     document.getElementById('top').innerHTML = 'Scrolling';
 }
+
+
+// # Advanced way
+// document.getElementById('ctn').onclick = function() {
+//     document.getElementById('ctn').innerHTML = 'Thank You! <i class="fa-solid fa-bell"></i>';
+//     document.getElementById('ctn').style.backgroundColor = 'black';
+// }
+
+// # addEventListener
+document.getElementById('ctn').addEventListener('click', function(){
+    document.getElementById('ctn').innerHTML = 'Thank You! <i class="fa-solid fa-bell"></i>';
+    document.getElementById('ctn').style.backgroundColor = 'black';
+})
