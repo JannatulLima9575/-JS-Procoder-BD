@@ -34,3 +34,13 @@ console.log(Math.random().toFixed(2)); // get two number after decimal (.)
 
 
 // Make a ludo
+// let upperCase = 6;
+// let lowerCase = 1;
+// let resultValue = Math.ceil(Math.random() * upperCase);
+
+// JS part For Ludo
+function rollDice() {
+    let randomNumber = Math.floor(Math.random() * 6 ) + 1;
+    let imgSource = 'images/' + randomNumber + '.png';
+    document.getElementById('ludo').src = imgSource;
+}
